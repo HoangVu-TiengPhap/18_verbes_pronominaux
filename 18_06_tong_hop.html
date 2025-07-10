@@ -3,14 +3,14 @@
 Created using JS Bin
 http://jsbin.com
 
-Copyright (c) 2025 by anonymous (http://jsbin.com/fizagacuno/19/edit)
+Copyright (c) 2025 by anonymous (http://jsbin.com/mifijiseje/2/edit)
 
 Released under the MIT license: http://jsbin.mit-license.org
 -->
 <meta name="robots" content="noindex">
 <html>
 <head>
-<title>Hoàn thành đoạn văn: Sophie au café - Giới từ và Bổ ngữ</title>
+<title>Bài tập số 6: Chia động từ (có cả phản thân)</title>
 <style>
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -47,7 +47,7 @@ Released under the MIT license: http://jsbin.mit-license.org
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .original-text {
+  .original-instruction {
     background-color: #eaf3f8;
     padding: 15px;
     border-radius: 8px;
@@ -214,141 +214,188 @@ Released under the MIT license: http://jsbin.mit-license.org
 </header>
 
 <div class="container">
-  <h1>Hoàn thành đoạn văn bằng cách điền các yếu tố còn thiếu (giới từ, mạo từ, đại từ):</h1>
+  <h1>Chia động từ trong ngoặc theo thì được chỉ định:</h1>
 
-  <div class="original-text">
-    Sophie (être) au café. [1] Elle (écrire) une lettre d'amour. [2] Elle (rêver), [3] elle (songer), [4] elle (choisir) ses expressions, [5] puis elle (mettre) son stylo dans ses cheveux et (réfléchir). [6] Elle (devoir) faire une belle lettre, [7] il (falloir) trouver les mots justes, mais elle ne (pouvoir) pas, [8] elle ne (savoir) pas exprimer les impressions qu'elle (ressentir). [9] Elle (partir) dans les nuages, [10] elle (être) sur une autre planète.
-    <br>
-    Soudain, le garçon (arriver), [11] il lui (demander) ce qu'elle (vouloir). [12] Elle (redescendre) sur terre : « Un Perrier ». [13] Il (partir) et [14] il (revenir) très vite. [15] Il (servir) Sophie, [16] elle (prendre) son verre et (boire) rapidement. [17] Elle (mettre) un billet sur la table, [18] le garçon (rendre) la monnaie, [19] puis elle (repartir) dans les nuages. [20] Finalement, elle (écrire) sa lettre. [21]
+  <div class="original-instruction">
+    Mỗi câu sẽ bắt đầu với thì cần chia động từ, sau đó là câu có động từ trong ngoặc.
   </div>
 
   <div class="question-block" id="q1-block">
-    <div class="question">1. Sophie ... au café. (être)</div>
-    <div class="translation">Sophie ... ở quán cà phê.</div>
+    <div class="question">1. Imparfait: Les personnes âgées n' (entendre) pas toujours bien.</div>
+    <div class="translation">Imparfait: Người lớn tuổi không (đã) luôn nghe rõ.</div>
     <div class="options" id="options-q1"></div>
     <button class="validate-btn" onclick="checkAnswer('q1')">Valider</button>
     <div class="feedback" id="feedback1"></div>
   </div>
 
   <div class="question-block" id="q2-block">
-    <div class="question">2. Elle ... une lettre d'amour. (écrire)</div>
-    <div class="translation">Cô ấy ... một lá thư tình.</div>
+    <div class="question">2. Présent: Elle (s'entendre avec) bien avec sa belle-mère.</div>
+    <div class="translation">Hiện tại: Cô ấy (hòa thuận) với mẹ chồng/vợ.</div>
     <div class="options" id="options-q2"></div>
     <button class="validate-btn" onclick="checkAnswer('q2')">Valider</button>
     <div class="feedback" id="feedback2"></div>
   </div>
 
   <div class="question-block" id="q3-block">
-    <div class="question">3. Elle ... (rêver)</div>
-    <div class="translation">Cô ấy ... (mơ)</div>
+    <div class="question">3. Passé composé: Je (décider de) de mener une vie plus régulière.</div>
+    <div class="translation">Quá khứ phức: Tôi (đã quyết định) sống một cuộc sống đều đặn hơn.</div>
     <div class="options" id="options-q3"></div>
     <button class="validate-btn" onclick="checkAnswer('q3')">Valider</button>
     <div class="feedback" id="feedback3"></div>
   </div>
 
   <div class="question-block" id="q4-block">
-    <div class="question">4. ... elle ... (songer)</div>
-    <div class="translation">... cô ấy ... (suy tư)</div>
+    <div class="question">4. Passé composé: À deux heures du matin, il (se décider à) partir.</div>
+    <div class="translation">Quá khứ phức: Lúc hai giờ sáng, anh ấy (đã tự quyết định) rời đi.</div>
     <div class="options" id="options-q4"></div>
     <button class="validate-btn" onclick="checkAnswer('q4')">Valider</button>
     <div class="feedback" id="feedback4"></div>
   </div>
 
   <div class="question-block" id="q5-block">
-    <div class="question">5. ... elle ... (choisir) ses expressions</div>
-    <div class="translation">... cô ấy ... (chọn) cách diễn đạt của mình</div>
+    <div class="question">5. Présent: De ma fenêtre, je (apercevoir) les arbres de la forêt.</div>
+    <div class="translation">Hiện tại: Từ cửa sổ, tôi (nhận thấy) những cái cây trong rừng.</div>
     <div class="options" id="options-q5"></div>
     <button class="validate-btn" onclick="checkAnswer('q5')">Valider</button>
     <div class="feedback" id="feedback5"></div>
   </div>
 
   <div class="question-block" id="q6-block">
-    <div class="question">6. ... puis elle ... (mettre) son stylo dans ses cheveux et ... (réfléchir).</div>
-    <div class="translation">... rồi cô ấy ... (đặt) bút vào tóc và ... (suy nghĩ).</div>
+    <div class="question">6. Passé composé: Il (ne pas s'apercevoir de) son erreur.</div>
+    <div class="translation">Quá khứ phức: Anh ấy không (nhận ra) lỗi lầm của mình.</div>
     <div class="options" id="options-q6"></div>
     <button class="validate-btn" onclick="checkAnswer('q6')">Valider</button>
     <div class="feedback" id="feedback6"></div>
   </div>
 
   <div class="question-block" id="q7-block">
-    <div class="question">7. Elle ... (devoir) faire une belle lettre, ... (falloir) trouver les mots justes.</div>
-    <div class="translation">Cô ấy ... (phải) viết một lá thư hay, ... (cần) tìm những từ ngữ chính xác.</div>
+    <div class="question">7. Présent: À quoi (servir à) un aspirateur ?</div>
+    <div class="translation">Hiện tại: Một cái máy hút bụi (dùng để) làm gì?</div>
     <div class="options" id="options-q7"></div>
     <button class="validate-btn" onclick="checkAnswer('q7')">Valider</button>
     <div class="feedback" id="feedback7"></div>
   </div>
 
   <div class="question-block" id="q8-block">
-    <div class="question">8. ... mais elle ne ... (pouvoir) pas, elle ne ... (savoir) pas exprimer les impressions qu'elle ... (ressentir).</div>
-    <div class="translation">... nhưng cô ấy không ... (thể), cô ấy không ... (biết) diễn tả những cảm xúc mà cô ấy ... (cảm thấy).</div>
+    <div class="question">8. Présent: Pour déboucher une bouteille, on (se servir de) d'un tire-bouchon.</div>
+    <div class="translation">Hiện tại: Để mở một chai, người ta (sử dụng) một cái mở nút chai.</div>
     <div class="options" id="options-q8"></div>
     <button class="validate-btn" onclick="checkAnswer('q8')">Valider</button>
     <div class="feedback" id="feedback8"></div>
   </div>
 
   <div class="question-block" id="q9-block">
-    <div class="question">9. Elle ... (partir) dans les nuages, elle ... (être) sur une autre planète.</div>
-    <div class="translation">Cô ấy ... (bay) trong mây, cô ấy ... (ở) trên một hành tinh khác.</div>
+    <div class="question">9. Imparfait: J' (attendre) Louis depuis une heure. Enfin, il est arrivé.</div>
+    <div class="translation">Imparfait: Tôi (đã đợi) Louis một tiếng đồng hồ. Cuối cùng, anh ấy đã đến.</div>
     <div class="options" id="options-q9"></div>
     <button class="validate-btn" onclick="checkAnswer('q9')">Valider</button>
     <div class="feedback" id="feedback9"></div>
   </div>
 
   <div class="question-block" id="q10-block">
-    <div class="question">10. Soudain, le garçon ... (arriver), il lui ... (demander) ce qu'elle ... (vouloir).</div>
-    <div class="translation">Bỗng nhiên, cậu bé ... (đến), anh ấy ... (hỏi) cô ấy muốn gì.</div>
+    <div class="question">10. Imparfait: Nous (ne pas s'attendre à) ce résultat.</div>
+    <div class="translation">Imparfait: Chúng tôi không (mong đợi) kết quả này.</div>
     <div class="options" id="options-q10"></div>
     <button class="validate-btn" onclick="checkAnswer('q10')">Valider</button>
     <div class="feedback" id="feedback10"></div>
   </div>
 
   <div class="question-block" id="q11-block">
-    <div class="question">11. Elle ... (redescendre) sur terre : « Un Perrier ».</div>
-    <div class="translation">Cô ấy ... (trở lại) Trái đất: "Một chai Perrier".</div>
+    <div class="question">11. Passé composé: Est-ce que tu (rendre) ton disque à ton copain ?</div>
+    <div class="translation">Quá khứ phức: Bạn (đã trả lại) đĩa của bạn cho bạn trai chưa?</div>
     <div class="options" id="options-q11"></div>
     <button class="validate-btn" onclick="checkAnswer('q11')">Valider</button>
     <div class="feedback" id="feedback11"></div>
   </div>
 
   <div class="question-block" id="q12-block">
-    <div class="question">12. Il ... (partir) et il ... (revenir) très vite.</div>
-    <div class="translation">Anh ấy ... (đi) và anh ấy ... (trở lại) rất nhanh.</div>
+    <div class="question">12. Futur: L'année prochaine, nous (se rendre à) au Festival de Cannes.</div>
+    <div class="translation">Tương lai: Năm tới, chúng tôi (sẽ đi đến) Liên hoan phim Cannes.</div>
     <div class="options" id="options-q12"></div>
     <button class="validate-btn" onclick="checkAnswer('q12')">Valider</button>
     <div class="feedback" id="feedback12"></div>
   </div>
 
   <div class="question-block" id="q13-block">
-    <div class="question">13. Il ... (servir) Sophie, elle ... (prendre) son verre et ... (boire) rapidement.</div>
-    <div class="translation">Anh ấy ... (phục vụ) Sophie, cô ấy ... (lấy) ly và ... (uống) nhanh chóng.</div>
+    <div class="question">13. Passé composé: Est-ce que tu (trouver) ce mot dans le dictionnaire ?</div>
+    <div class="translation">Quá khứ phức: Bạn (đã tìm thấy) từ này trong từ điển chứ?</div>
     <div class="options" id="options-q13"></div>
     <button class="validate-btn" onclick="checkAnswer('q13')">Valider</button>
     <div class="feedback" id="feedback13"></div>
   </div>
 
   <div class="question-block" id="q14-block">
-    <div class="question">14. Elle ... (mettre) un billet sur la table, le garçon ... (rendre) la monnaie.</div>
-    <div class="translation">Cô ấy ... (đặt) một tờ tiền lên bàn, cậu bé ... (trả) tiền thừa.</div>
+    <div class="question">14. Présent: Notre maison de campagne (se trouver) près de Bordeaux.</div>
+    <div class="translation">Hiện tại: Ngôi nhà nông thôn của chúng tôi (nằm) gần Bordeaux.</div>
     <div class="options" id="options-q14"></div>
     <button class="validate-btn" onclick="checkAnswer('q14')">Valider</button>
     <div class="feedback" id="feedback14"></div>
   </div>
 
   <div class="question-block" id="q15-block">
-    <div class="question">15. ... puis elle ... (repartir) dans les nuages.</div>
-    <div class="translation">... rồi cô ấy ... (lại bay) vào mây.</div>
+    <div class="question">15. Impératif: (mettre) ... tes bottes ! Il pleut.</div>
+    <div class="translation">Mệnh lệnh: (đeo) ... ủng của bạn! Trời mưa.</div>
     <div class="options" id="options-q15"></div>
     <button class="validate-btn" onclick="checkAnswer('q15')">Valider</button>
     <div class="feedback" id="feedback15"></div>
   </div>
 
   <div class="question-block" id="q16-block">
-    <div class="question">16. Finalement, elle ... (écrire) sa lettre.</div>
-    <div class="translation">Cuối cùng, cô ấy ... (viết) xong lá thư của mình.</div>
+    <div class="question">16. Passé composé: J'ai dit une bêtise. Ils (se mettre à) rire.</div>
+    <div class="translation">Quá khứ phức: Tôi đã nói một điều ngu ngốc. Họ (bắt đầu) cười.</div>
     <div class="options" id="options-q16"></div>
     <button class="validate-btn" onclick="checkAnswer('q16')">Valider</button>
     <div class="feedback" id="feedback16"></div>
   </div>
+
+  <div class="question-block" id="q17-block">
+    <div class="question">17. Présent: La Martinique (produire) des bananes et des ananas.</div>
+    <div class="translation">Hiện tại: Martinique (sản xuất) chuối và dứa.</div>
+    <div class="options" id="options-q17"></div>
+    <button class="validate-btn" onclick="checkAnswer('q17')">Valider</button>
+    <div class="feedback" id="feedback17"></div>
+  </div>
+
+  <div class="question-block" id="q18-block">
+    <div class="question">18. Passé composé: Quel événement important (se produire) en 1789 en France?</div>
+    <div class="translation">Quá khứ phức: Sự kiện quan trọng nào (đã xảy ra) vào năm 1789 ở Pháp?</div>
+    <div class="options" id="options-q18"></div>
+    <button class="validate-btn" onclick="checkAnswer('q18')">Valider</button>
+    <div class="feedback" id="feedback18"></div>
+  </div>
+
+  <div class="question-block" id="q19-block">
+    <div class="question">19. Passé composé: Est-ce que vous (passer) une bonne journée ?</div>
+    <div class="translation">Quá khứ phức: Bạn (số nhiều/lịch sự) (đã trải qua) một ngày tốt lành chứ?</div>
+    <div class="options" id="options-q19"></div>
+    <button class="validate-btn" onclick="checkAnswer('q19')">Valider</button>
+    <div class="feedback" id="feedback19"></div>
+  </div>
+
+  <div class="question-block" id="q20-block">
+    <div class="question">20. Passé composé: Que (se passer) hier ?</div>
+    <div class="translation">Quá khứ phức: Điều gì (đã xảy ra) hôm qua?</div>
+    <div class="options" id="options-q20"></div>
+    <button class="validate-btn" onclick="checkAnswer('q20')">Valider</button>
+    <div class="feedback" id="feedback20"></div>
+  </div>
+
+  <div class="question-block" id="q21-block">
+    <div class="question">21. Passé composé: Ils (arrêter) leurs études.</div>
+    <div class="translation">Quá khứ phức: Họ (đã dừng) việc học của họ.</div>
+    <div class="options" id="options-q21"></div>
+    <button class="validate-btn" onclick="checkAnswer('q21')">Valider</button>
+    <div class="feedback" id="feedback21"></div>
+  </div>
+
+  <div class="question-block" id="q22-block">
+    <div class="question">22. Passé composé: Est-ce que tu (s'arrêter de) de fumer?</div>
+    <div class="translation">Quá khứ phức: Bạn (đã dừng) hút thuốc chưa?</div>
+    <div class="options" id="options-q22"></div>
+    <button class="validate-btn" onclick="checkAnswer('q22')">Valider</button>
+    <div class="feedback" id="feedback22"></div>
+  </div>
+
 
   <button class="complete-test-btn" onclick="showScore()">Hoàn thành bài kiểm tra</button>
 
@@ -361,118 +408,161 @@ Released under the MIT license: http://jsbin.mit-license.org
 <script>
   // Định nghĩa dữ liệu cho mỗi câu hỏi
   const questionsData = {
-    // Sophie au café
+    // Từ image_c7807b.png (Câu 1 đến 4)
     q1: {
-      original: "Sophie ... au café. (être)",
-      translation: "Sophie ... ở quán cà phê.",
-      correct: "était",
-      wrong: ["a été", "fut"],
-      explanation: "Động từ 'être' miêu tả một trạng thái, bối cảnh trong quá khứ, nên dùng Imparfait."
+      original: "1. Imparfait: Les personnes âgées n' (entendre) pas toujours bien.",
+      translation: "Imparfait: Người lớn tuổi không (đã) luôn nghe rõ.",
+      correct: "entendaient",
+      wrong: ["entendent", "entendait"],
+      explanation: "Động từ 'entendre' chia ở Imparfait. Gốc 'entend-' (từ 'nous entendons'). Đuôi '-aient' cho 'Les personnes âgées'."
     },
     q2: {
-      original: "Elle ... une lettre d'amour. (écrire)",
-      translation: "Cô ấy ... một lá thư tình.",
-      correct: "écrivait",
-      wrong: ["a écrit", "écrivit"],
-      explanation: "Diễn tả hành động đang diễn ra (đang viết thư), nên dùng Imparfait."
+      original: "2. Présent: Elle (s'entendre avec) bien avec sa belle-mère.",
+      translation: "Hiện tại: Cô ấy (hòa thuận) với mẹ chồng/vợ.",
+      correct: "s'entend",
+      wrong: ["s'entendent", "s'entends"],
+      explanation: "Động từ phản thân 's'entendre avec' chia ở Présent, ngôi 'Elle'. 'se' rút gọn thành 's'' trước nguyên âm."
     },
     q3: {
-      original: "Elle ... (rêver)",
-      translation: "Cô ấy ... (mơ)",
-      correct: "rêvait",
-      wrong: ["a rêvé", "rêva"],
-      explanation: "Hành động diễn ra đồng thời, miêu tả trạng thái tinh thần của Sophie, nên dùng Imparfait."
+      original: "3. Passé composé: Je (décider de) de mener une vie plus régulière.",
+      translation: "Quá khứ phức: Tôi (đã quyết định) sống một cuộc sống đều đặn hơn.",
+      correct: "ai décidé",
+      wrong: ["décidais", "décidai"],
+      explanation: "Động từ 'décider de' chia ở Passé Composé với trợ động từ 'avoir'."
     },
     q4: {
-      original: "... elle ... (songer)",
-      translation: "... cô ấy ... (suy tư)",
-      correct: "songeait",
-      wrong: ["a songé", "songea"],
-      explanation: "Hành động diễn ra đồng thời, miêu tả trạng thái tinh thần, nên dùng Imparfait."
+      original: "4. Passé composé: À deux heures du matin, il (se décider à) partir.",
+      translation: "Quá khứ phức: Lúc hai giờ sáng, anh ấy (đã tự quyết định) rời đi.",
+      correct: "s'est décidé",
+      wrong: ["se décidait", "s'est décidée"], // Giả định là nam
+      explanation: "Động từ phản thân 'se décider à' chia ở Passé Composé với trợ động từ 'être'. Phân từ quá khứ hợp giống/số với chủ ngữ (nếu chủ ngữ là nữ sẽ là 's'est décidée')."
     },
+    // Từ image_c77d94.png (Câu 2-10 trong hình đó)
     q5: {
-      original: "... elle ... (choisir) ses expressions",
-      translation: "... cô ấy ... (chọn) cách diễn đạt của mình",
-      correct: "choisissait",
-      wrong: ["a choisi", "choisit"],
-      explanation: "Hành động diễn ra đồng thời, miêu tả trạng thái tinh thần, nên dùng Imparfait."
+      original: "2. (apercevoir): Présent - De ma fenêtre, je ... les arbres de la forêt.",
+      translation: "Hiện tại: Từ cửa sổ, tôi (nhận thấy) những cái cây trong rừng.",
+      correct: "aperçois",
+      wrong: ["apercevons", "apercevez"],
+      explanation: "Động từ 'apercevoir' chia ở Présent, ngôi 'Je'."
     },
     q6: {
-      original: "... puis elle ... (mettre) son stylo dans ses cheveux et ... (réfléchir).",
-      translation: "... rồi cô ấy ... (đặt) bút vào tóc và ... (suy nghĩ).",
-      correct: "a mis, a réfléchi",
-      wrong: ["mettait, réfléchissait", "a mis, réfléchissait"],
-      explanation: "Các hành động hoàn thành, kế tiếp nhau ('đặt bút' rồi 'suy nghĩ'), nên dùng Passé Composé cho cả hai."
+      original: "(s'apercevoir de): Passé composé - Il ne ... pas ... de son erreur.",
+      translation: "Quá khứ phức: Anh ấy không (nhận ra) lỗi lầm của mình.",
+      correct: "ne s'est pas aperçu de", // Giả định nam
+      wrong: ["ne s'apercevait pas de", "ne s'est pas aperçues de"],
+      explanation: "Động từ phản thân 's'apercevoir de' chia ở Passé Composé với trợ động từ 'être'. 'ne...pas' bao quanh trợ động từ và đại từ phản thân."
     },
-    q7: { // Tách từ q6
-      original: "Elle ... (devoir) faire une belle lettre, ... (falloir) tìm les mots justes.",
-      translation: "Cô ấy ... (phải) viết một lá thư hay, ... (cần) tìm những từ ngữ chính xác.",
-      correct: "devait, fallait",
-      wrong: ["a dû, a fallu", "devait, a fallu"],
-      explanation: "Cả hai động từ miêu tả trạng thái, nghĩa vụ hoặc sự cần thiết kéo dài trong quá khứ, nên dùng Imparfait."
+    q7: {
+      original: "3. (servir à): Présent - À quoi ... un aspirateur ?",
+      translation: "Hiện tại: Một cái máy hút bụi (dùng để) làm gì?",
+      correct: "sert",
+      wrong: ["servent", "sers"],
+      explanation: "Động từ 'servir à' chia ở Présent, ngôi 'il/elle' (un aspirateur)."
     },
     q8: {
-      original: "... mais elle ne ... (pouvoir) pas, elle ne ... (savoir) pas exprimer les impressions qu'elle ... (ressentir).",
-      translation: "... nhưng cô ấy không ... (thể), cô ấy không ... (biết) diễn tả những cảm xúc mà cô ấy ... (cảm thấy).",
-      correct: "pouvait, savait, ressentait",
-      wrong: ["a pu, a su, a ressenti", "pouvait, savait, a ressenti"],
-      explanation: "Tất cả các động từ này miêu tả khả năng, tri thức hoặc cảm xúc kéo dài trong quá khứ, nên dùng Imparfait cho tất cả."
+      original: "(se servir de): Présent - Pour déboucher une bouteille, on ... d'un tire-bouchon.",
+      translation: "Hiện tại: Để mở một chai, người ta (sử dụng) một cái mở nút chai.",
+      correct: "se sert",
+      wrong: ["se servent", "se sers"],
+      explanation: "Động từ phản thân 'se servir de' chia ở Présent, ngôi 'on'."
     },
-    q9: { // Tách từ q8
-      original: "Elle ... (partir) dans les nuages, elle ... (être) sur une autre planète.",
-      translation: "Cô ấy ... (bay) trong mây, cô ấy ... (ở) trên một hành tinh khác.",
-      correct: "partait, était",
-      wrong: ["est partie, a été", "partait, a été"],
-      explanation: "Cả hai hành động miêu tả trạng thái 'bay trong mây' và 'ở trên hành tinh khác' là các hành động diễn ra đồng thời, liên tục, nên dùng Imparfait."
+    q9: {
+      original: "4. (attendre): Imparfait - Je ... Louis depuis une heure. Enfin, il est arrivé.",
+      translation: "Imparfait: Tôi (đã đợi) Louis một tiếng đồng hồ. Cuối cùng, anh ấy đã đến.",
+      correct: "attendais",
+      wrong: ["attendait", "attendaient"],
+      explanation: "Động từ 'attendre' chia ở Imparfait, ngôi 'je'. Diễn tả hành động đang diễn ra khi hành động khác xen vào."
     },
     q10: {
-      original: "Soudain, le garçon ... (arriver), il lui ... (demander) ce qu'elle ... (vouloir).",
-      translation: "Bỗng nhiên, cậu bé ... (đến), anh ấy ... (hỏi) cô ấy muốn gì.",
-      correct: "est arrivé, a demandé, voulait",
-      wrong: ["arrivait, demandait, voulait", "est arrivé, a demandé, a voulu"],
-      explanation: "Hành động 'arriver' (đến) là đột ngột, hoàn thành (Passé Composé). 'Demander' (hỏi) là hành động hoàn thành kế tiếp (Passé Composé). 'Vouloir' (muốn) là trạng thái kéo dài, nên dùng Imparfait."
+      original: "(s'attendre à): Imparfait - Nous ne ... pas à ce résultat.",
+      translation: "Imparfait: Chúng tôi không (mong đợi) kết quả này.",
+      correct: "ne nous attendions pas à",
+      wrong: ["ne nous attendais pas à", "ne nous attendaient pas à"],
+      explanation: "Động từ phản thân 's'attendre à' chia ở Imparfait, ngôi 'nous'. Phủ định 'ne...pas' bao quanh động từ."
     },
     q11: {
-      original: "Elle ... (redescendre) sur terre : « Un Perrier ».",
-      translation: "Cô ấy ... (trở lại) Trái đất: 'Một chai Perrier'.",
-      correct: "est redescendue",
-      wrong: ["redescendait", "a redescendu"],
-      explanation: "Hành động 'redescendre' (trở lại) là hành động hoàn thành, chỉ sự di chuyển, nên dùng Passé Composé (với 'être')."
+      original: "5. (rendre): Passé composé - Est-ce que tu ... ton disque à ton copain ?",
+      translation: "Quá khứ phức: Bạn (đã trả lại) đĩa của bạn cho bạn trai chưa?",
+      correct: "as rendu",
+      wrong: ["as rendis", "as rendi"],
+      explanation: "Động từ 'rendre' chia ở Passé Composé với trợ động từ 'avoir'."
     },
     q12: {
-      original: "Il ... (partir) et il ... (revenir) très vite.",
-      translation: "Anh ấy ... (đi) và anh ấy ... (trở lại) rất nhanh.",
-      correct: "est parti, est revenu",
-      wrong: ["partait, revenait", "a parti, est revenu"],
-      explanation: "Cả hai động từ 'partir' và 'revenir' là các động từ chỉ sự di chuyển và là các hành động hoàn thành, kế tiếp nhau, nên dùng Passé Composé (với 'être')."
+      original: "(se rendre à): Futur - L'année prochaine, nous ... au Festival de Cannes.",
+      translation: "Tương lai: Năm tới, chúng tôi (sẽ đi đến) Liên hoan phim Cannes.",
+      correct: "nous rendrons",
+      wrong: ["nous irons", "nous rendons"],
+      explanation: "Động từ phản thân 'se rendre à' chia ở Futur Simple, ngôi 'nous'. Gốc 'rendr-'. Đại từ phản thân 'nous' đứng trước động từ chia."
     },
     q13: {
-      original: "Il ... (servir) Sophie, elle ... (prendre) son verre et ... (boire) rapidement.",
-      translation: "Anh ấy ... (phục vụ) Sophie, cô ấy ... (lấy) ly và ... (uống) nhanh chóng.",
-      correct: "a servi, a pris, a bu",
-      wrong: ["servait, prenait, buvait", "a servi, prenait, buvait"],
-      explanation: "Đây là một chuỗi các hành động hoàn thành, kế tiếp nhau: 'phục vụ', 'lấy', 'uống', nên dùng Passé Composé cho tất cả."
+      original: "6. (trouver): Passé composé - Est-ce que tu ... ce mot dans le dictionnaire ?",
+      translation: "Quá khứ phức: Bạn (đã tìm thấy) từ này trong từ điển chứ?",
+      correct: "as trouvé",
+      wrong: ["as trouvez", "as trouvis"],
+      explanation: "Động từ 'trouver' chia ở Passé Composé với trợ động từ 'avoir'."
     },
     q14: {
-      original: "Elle ... (mettre) un billet sur la table, le garçon ... (rendre) la monnaie.",
-      translation: "Cô ấy ... (đặt) một tờ tiền lên bàn, cậu bé ... (trả) tiền thừa.",
-      correct: "a mis, a rendu",
-      wrong: ["mettait, rendait", "a mis, rendait"],
-      explanation: "Đây là một chuỗi các hành động hoàn thành, kế tiếp nhau: 'đặt' và 'trả lại', nên dùng Passé Composé cho cả hai."
+      original: "7. (se trouver): Présent - Notre maison de campagne ... près de Bordeaux.",
+      translation: "Hiện tại: Ngôi nhà nông thôn của chúng tôi (nằm) gần Bordeaux.",
+      correct: "se trouve",
+      wrong: ["se trouvent", "se trouvons"],
+      explanation: "Động từ phản thân 'se trouver' chia ở Présent, ngôi 'elle' (Notre maison de campagne)."
     },
     q15: {
-      original: "... puis elle ... (repartir) dans les nuages.",
-      translation: "... rồi cô ấy ... (lại bay) vào mây.",
-      correct: "est repartie",
-      wrong: ["repartait", "a reparti"],
-      explanation: "Hành động 'repartir' (lại bay) là một hành động hoàn thành, chỉ sự di chuyển, nên dùng Passé Composé (với 'être')."
+      original: "7. (mettre): Impératif - ... tes bottes ! Il pleut.",
+      translation: "Mệnh lệnh: (đeo) ... ủng của bạn! Trời mưa.",
+      correct: "Mets",
+      wrong: ["Mettez", "Met"],
+      explanation: "Động từ 'mettre' chia ở Impératif, ngôi 'tu' là 'Mets'."
     },
     q16: {
-      original: "Finalement, elle ... (écrire) sa lettre.",
-      translation: "Cuối cùng, cô ấy ... (viết) xong lá thư của mình.",
-      correct: "a écrit",
-      wrong: ["écrivait", "écrivit"],
-      explanation: "Hành động 'écrire' (viết xong) là một hành động hoàn thành, có điểm kết thúc rõ ràng, nên dùng Passé Composé."
+      original: "8. (se mettre à): Passé composé - J'ai dit une bêtise. Ils ... à rire.",
+      translation: "Quá khứ phức: Tôi đã nói một điều ngu ngốc. Họ (bắt đầu) cười.",
+      correct: "se sont mis",
+      wrong: ["se sont mettus", "se sont mettés"],
+      explanation: "Động từ phản thân 'se mettre à' chia ở Passé Composé với trợ động từ 'être'. Phân từ quá khứ 'mis' không hợp giống/số vì COI. 'Ils' là chủ ngữ số nhiều."
+    },
+    q17: {
+      original: "8. (produire): Présent - La Martinique ... des bananes et des ananas.",
+      translation: "Hiện tại: Martinique (sản xuất) chuối và dứa.",
+      correct: "produit",
+      wrong: ["produisent", "produis"],
+      explanation: "Động từ 'produire' chia ở Présent, ngôi 'Il/Elle' (La Martinique)."
+    },
+    q18: {
+      original: "9. (se produire): Passé composé - Quel événement important ... en 1789 en France?",
+      translation: "Quá khứ phức: Sự kiện quan trọng nào (đã xảy ra) vào năm 1789 ở Pháp?",
+      correct: "s'est produit",
+      wrong: ["s'est produite", "s'est produits"],
+      explanation: "Động từ phản thân 'se produire' chia ở Passé Composé với trợ động từ 'être'. Phân từ quá khứ hợp giống/số với chủ ngữ (événement là giống đực số ít)."
+    },
+    q19: {
+      original: "9. (passer): Passé composé - Est-ce que vous ... une bonne journée ?",
+      translation: "Quá khứ phức: Bạn (số nhiều/lịch sự) (đã trải qua) một ngày tốt lành chứ?",
+      correct: "avez passé",
+      wrong: ["êtes passé(e)s", "passiez"],
+      explanation: "Động từ 'passer' (trải qua) dùng trợ động từ 'avoir' ở Passé Composé."
+    },
+    q20: {
+      original: "10. (se passer): Passé composé - Que ...-il hier ?",
+      translation: "Quá khứ phức: Điều gì (đã xảy ra) hôm qua?",
+      correct: "s'est-il passé",
+      wrong: ["s'est-il passée", "s'est-il passés"],
+      explanation: "Động từ phản thân 'se passer' (xảy ra) chia ở Passé Composé với 'être'. Phân từ quá khứ 'passé' không hợp giống/số khi là động từ phản thân trực tiếp."
+    },
+    q21: {
+      original: "10. (arrêter): Passé composé - Ils ... leurs études.",
+      translation: "10. (dừng) - Quá khứ phức: Họ ... việc học của họ.",
+      correct: "ont arrêté",
+      wrong: ["sont arrêtés", "arrêtaient"],
+      explanation: "Động từ 'arrêter' (dừng) dùng trợ động từ 'avoir' ở Passé Composé."
+    },
+    q22: {
+      original: "(s'arrêter de): Passé composé - Est-ce que tu ... de fumer?",
+      translation: "Quá khứ phức: Bạn (đã dừng) hút thuốc chưa?",
+      correct: "t'es arrêté(e)", // Giả định tu có thể là nam hoặc nữ
+      wrong: ["t'as arrêté", "t'arrêtais"],
+      explanation: "Động từ phản thân 's'arrêter de' (dừng làm gì) chia ở Passé Composé với 'être'. Phân từ quá khứ hợp giống/số với 'tu'."
     }
   };
 
@@ -578,7 +668,6 @@ Released under the MIT license: http://jsbin.mit-license.org
     document.getElementById('total-questions').textContent = totalQuestions;
     document.getElementById('score-area').style.display = 'block';
   }
-}
 </script>
 
 </body>
